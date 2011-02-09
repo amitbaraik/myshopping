@@ -4792,3 +4792,11 @@ Rendering store/show
   [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `items` WHERE (`items`.product_id = 1) AND ( (`items`.`type` = 'Variation' ) ) [0m
 Rendered shared/_flash (0.2ms)
 Completed in 258ms (View: 41, DB: 10) | 200 OK [http://localhost/store/show/A001]
+  [4;36;1mPreference Load (79.2ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'use_smtp_tls_patch') LIMIT 1[0m
+  [4;35;1mPreference Load (0.7ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_host') LIMIT 1[0m
+  [4;36;1mPreference Load (0.3ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_port') LIMIT 1[0m
+  [4;35;1mPreference Load (0.3ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_auth_type') LIMIT 1[0m
+  [4;36;1mPreference Load (0.7ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'use_smtp_tls_patch') LIMIT 1[0m
+  [4;35;1mPreference Load (0.9ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_host') LIMIT 1[0m
+  [4;36;1mPreference Load (0.3ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_port') LIMIT 1[0m
+  [4;35;1mPreference Load (0.3ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_auth_type') LIMIT 1[0m
