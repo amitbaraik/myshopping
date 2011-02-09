@@ -4800,3 +4800,11 @@ Completed in 258ms (View: 41, DB: 10) | 200 OK [http://localhost/store/show/A001
   [4;35;1mPreference Load (0.9ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_host') LIMIT 1[0m
   [4;36;1mPreference Load (0.3ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_port') LIMIT 1[0m
   [4;35;1mPreference Load (0.3ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_auth_type') LIMIT 1[0m
+  [4;36;1mPreference Load (22.9ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'use_smtp_tls_patch') LIMIT 1[0m
+  [4;35;1mPreference Load (0.7ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_host') LIMIT 1[0m
+  [4;36;1mPreference Load (0.3ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_port') LIMIT 1[0m
+  [4;35;1mPreference Load (0.3ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_auth_type') LIMIT 1[0m
+  [4;36;1mPreference Load (1.0ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'use_smtp_tls_patch') LIMIT 1[0m
+  [4;35;1mPreference Load (0.7ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_host') LIMIT 1[0m
+  [4;36;1mPreference Load (0.3ms)[0m   [0;1mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_port') LIMIT 1[0m
+  [4;35;1mPreference Load (3.2ms)[0m   [0mSELECT * FROM `preferences` WHERE (`preferences`.`name` = 'mail_auth_type') LIMIT 1[0m
